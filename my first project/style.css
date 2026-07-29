@@ -1,0 +1,24 @@
+body {
+    background-color: #01ffc0; 
+}
+div {
+    background-color: #ff0101; 
+    border-radius: 10px;
+}
+
+p {
+outline-color:rgb(49, 0, 128);
+padding: 5px;
+}
+p.groove {
+    outline-style: groove
+}
+p.double {
+    outline-style: double
+}
+#myHeader {
+    background-color: lightblue;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
