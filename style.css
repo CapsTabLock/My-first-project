@@ -1,0 +1,28 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body { 
+    /* Relative path to the image in the project folder */ background-image: url('assets/carina_nebula~large.jpg'); 
+    background-size: cover;           /* scale to cover the viewport */
+    background-repeat: no-repeat;     /* prevent tiling */ 
+    background-attachment: fixed;     /* keep image fixed while scrolling */ 
+    background-position: center top;  /* center the image */ 
+    min-height: 150vh;                /* ensure the page is scrollable */
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+}
+
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 8px;
+}
+html {
+    scroll-behavior: smooth;
+}
+   
+ 
